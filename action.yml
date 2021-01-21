@@ -1,0 +1,13 @@
+name: 'Get Package Version'
+description: 'Gets the version of a JavaScript or TypeScript project from the package.json file.'
+inputs:
+  path:
+    description: 'The relative path to the package.json file.'
+    required: false
+    default: .
+outputs:
+  version:
+    description: 'The extracted project version. e.g., 1.0.0'
+runs:
+  using: 'node12'
+  main: 'index.js'

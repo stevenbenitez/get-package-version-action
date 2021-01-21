@@ -1,0 +1,5 @@
+.idea/
+
+# IMPORTANT! GitHub JavaScript Actions must have their node_modules folder
+# checked in. Do not add it to this file.
+# https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github
