@@ -1,5 +1,9 @@
 name: 'Get Package Version'
 description: 'Gets the version of a JavaScript or TypeScript project from the package.json file.'
+author: 'Steven Benitez'
+branding:
+  icon: 'box'
+  color: 'yellow'
 inputs:
   path:
     description: 'The relative path to the package.json file.'
